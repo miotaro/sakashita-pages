@@ -1,0 +1,91 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 20vh;
+  width: 100vw;
+  background-color: orange;
+}
+
+.title-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 100px;
+  padding-left: 10px;
+}
+
+.info {
+  font-size: 40px;
+}
+
+.contents {
+  background-color: white;
+}
+
+.upper-content {
+  height: 450px;
+  background-color: white;
+}
+
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
+.middle-content {
+  height: 1000px;
+  background-color: white;
+  margin: 30px 400px;
+}
+
+.menu-name {
+  background-color: chocolate;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.menus {
+  margin: 0 30px 20px 30px;
+}
+
+.menu {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.menu-contents {
+  font-size: 20px;
+}
+
+.menu-content {
+  font-size: 20px;
+}
+
+.bottom-content {
+  height: 200px;
+  background-color: white;
+  margin: 0 200px;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: orange;
+}
