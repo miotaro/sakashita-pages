@@ -15,6 +15,13 @@ ul,li {
 }
 /* リセットCSS */
 
+
+
+@font-face {
+  font-family: "komorebi-gothic";
+  src: url(MODI_komorebi-gothic_2018_0501/komorebi-gothic-P.ttf);
+}
+
 header {
   height: 20vh;
   width: 100vw;
@@ -31,7 +38,6 @@ header {
   padding: 10px 20px;
   color: orange;
 }
-
 
 .infoes{
   margin: 45px 30px -45px 30px;
@@ -56,6 +62,9 @@ header {
 
 .contents {
   background-color: white;
+}
+
+body {
 }
 
 .upper-content {
@@ -321,7 +330,7 @@ footer {
     height: 150px;
     width: 200px;
     background-color: orange;
-    margin: -100px 5px 5px 135px;
+    margin: -100px 5px 5px 115px;
     position: absolute;
   }
   
