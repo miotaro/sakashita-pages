@@ -256,7 +256,7 @@ footer {
 }
 
 /*スマホ表示*/
-@media (max-width: 340px) {
+@media (max-width: 320px) {
   header {
     height: 80px;
     width: 100vw;
@@ -271,7 +271,7 @@ footer {
   
   .title {
     font-size: 25px;
-    padding: 15px 5px;
+    padding: 20px 0px;
     color: orange;
   }
   
@@ -337,7 +337,8 @@ footer {
   }
   
   .middle-content {
-    height: 1380px;
+    height: 1400px;
+    width: 100vw;
     display: block;
     align-items: center;
     margin-top: 5px;
@@ -354,19 +355,19 @@ footer {
     font-size: 25px;
     text-align: center;
     border-bottom: 1px solid black;
-    margin: 20px 60px 0px 60px;
+    margin: 30px 60px 0px 60px;
   }
   
   .menus {
     width: 300px;
-    margin: 0px 30px;
+    margin: 0px 20px;
     text-align: center;
   }
   
   .menu {
-    width: 200px;
+    width: 150px;
     font-size: 15px;
-    margin: 10px 40px;
+    margin: 20px 65px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
   }
@@ -383,7 +384,7 @@ footer {
   
   .menu-price {
     font-size: 12px;
-    margin-right: 50px;
+    margin-right: 70px;
   }
   
   .menu-info {
@@ -429,7 +430,7 @@ footer {
   }
   
   .menu-text {
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding-top: 5px;
@@ -466,7 +467,7 @@ footer {
   .owner-face {
     height: 250px;
     width: 190px;
-    margin: 5px 80px;
+    margin: 5px 70px;
   }
   
   .addresses {
@@ -484,13 +485,13 @@ footer {
   
   .address-name {
     font-size: 15px;
-    margin: 10px 80px;
+    margin: 15px 70px;
   }
   
   .map-image {
     height: 250px;
-    width: 320px;
-    margin: 10px;
+    width: 97%;
+    margin: 5px;
   }
   
   footer {
