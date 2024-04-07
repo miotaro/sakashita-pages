@@ -273,7 +273,7 @@ footer {
 }
 
 /*スマホ表示*/
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   header {
     height: 80px;
     width: 100vw;
@@ -338,7 +338,7 @@ footer {
     height: 150px;
     width: 200px;
     background-color: orange;
-    margin: -100px 5px 5px 115px;
+    margin: -100px 5px 5px 150px;
     position: absolute;
   }
   
@@ -377,7 +377,7 @@ footer {
   
   .menus {
     width: 300px;
-    margin: 0px 20px;
+    margin: 0px 50px;
     text-align: center;
   }
   
@@ -440,8 +440,8 @@ footer {
   }
   
   .menu-info2 {
-    height: 95px;
-    width: 80vw;
+    height: 80px;
+    width: 95vw;
     background-color: white;
     border: 5px solid orange;
   }
@@ -450,7 +450,7 @@ footer {
     font-size: 14px;
     color: black;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 12px;
   }
   
   .bottom-content {
@@ -484,7 +484,7 @@ footer {
   .owner-face {
     height: 250px;
     width: 190px;
-    margin: 5px 70px;
+    margin: 5px 90px;
   }
   
   .addresses {
