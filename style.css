@@ -784,8 +784,8 @@ footer {
   }
 }
 
+/* タブレット表示
 
-/*タブレット表示*/
 @media (max-width: 768px) {
   header {
     height: 150px;
@@ -1038,4 +1038,4 @@ footer {
     color: orange;
     padding: 10px 5px;
   }
-}
+} */
