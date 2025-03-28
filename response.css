@@ -1,6 +1,6 @@
 @media(max-width: 1000px) {
   .top-wrapper {
-    height: 550px;
+    height: 850px;
   }
 
   .shop-image {
@@ -12,11 +12,27 @@
   }
 
   .menues {
-    margin: 0 30px;
+    margin: 0 50px;
   }
 
   .message-wrapper {
     font-size: 12px;
+  }
+
+  .info-wrapper {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .left-info {
+    width: 400px;
+    margin: 0 auto;
+
+  }
+
+  .right-info {
+    width: 400px;
+    margin: 0 auto;
   }
 
   .owner {
@@ -55,8 +71,12 @@
   }  
 
   .top-wrapper {
-    height: 400px;
+    height: 650px;
     width: 100%;
+  }
+    
+  .page-button a {
+    font-size: 12px;
   }
 
   .shop-image {
@@ -72,6 +92,7 @@
     display: block;
     width: 100%;
     overflow: hidden; 
+    padding: 100px 80px;
   }
 
   .menues {
@@ -91,22 +112,6 @@
     font-size: 8px;
   }
 
-  .info-wrapper {
-    width: 100%;
-    display: inline-block;
-  }
-
-  .left-info {
-    width: 400px;
-    margin: 0 auto;
-
-  }
-
-  .right-info {
-    width: 400px;
-    margin: 0 auto;
-  }
-    
   .map-image {
     width: 100%;
     max-width: 400px;
@@ -159,7 +164,6 @@
   .message-wrapper {
     font-size: 6px;
   }
-
 
   .left-info {
     width: 320px;
